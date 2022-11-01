@@ -1,0 +1,37 @@
+2022-10-30 13:10:55,976 INFO    Thread-32 :4247 [wandb_setup.py:_flush():68] Configure stats pid to 4247
+2022-10-30 13:10:55,976 INFO    Thread-32 :4247 [wandb_setup.py:_flush():68] Loading settings from /home/diego/.config/wandb/settings
+2022-10-30 13:10:55,976 INFO    Thread-32 :4247 [wandb_setup.py:_flush():68] Loading settings from /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/settings
+2022-10-30 13:10:55,976 INFO    Thread-32 :4247 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'notebook_name': 'modeling.ipynb', 'entity': 'dbabativa', 'project': 'spg', 'root_dir': '/home/diego/Documents/git/SPG/notebooks/3_modeling', 'run_id': 'jzvq7kq9', 'sweep_param_path': '/home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/sweep-zekfwzfs/config-jzvq7kq9.yaml', 'sweep_id': 'zekfwzfs'}
+2022-10-30 13:10:55,976 INFO    Thread-32 :4247 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-30 13:10:55,976 INFO    Thread-32 :4247 [wandb_init.py:_log_setup():476] Logging user logs to /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_131055-jzvq7kq9/logs/debug.log
+2022-10-30 13:10:55,977 INFO    Thread-32 :4247 [wandb_init.py:_log_setup():477] Logging internal logs to /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_131055-jzvq7kq9/logs/debug-internal.log
+2022-10-30 13:10:55,977 INFO    Thread-32 :4247 [wandb_init.py:init():516] calling init triggers
+2022-10-30 13:10:55,977 INFO    Thread-32 :4247 [wandb_init.py:init():519] wandb.init called with sweep_config: {'gamma': 0.8407320667979981, 'learning_rate': 0.1434585628009872, 'max_depth': 7, 'min_child_weight': 8, 'n_estimators': 276, 'reg_alpha': 2.532044881817662, 'reg_lambda': 3.5843339508168413}
+config: {}
+2022-10-30 13:10:55,977 INFO    Thread-32 :4247 [wandb_init.py:init():569] starting backend
+2022-10-30 13:10:55,977 INFO    Thread-32 :4247 [wandb_init.py:init():573] setting up manager
+2022-10-30 13:10:55,983 INFO    Thread-32 :4247 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-30 13:10:55,988 INFO    Thread-32 :4247 [wandb_init.py:init():580] backend started and connected
+2022-10-30 13:10:56,020 INFO    Thread-32 :4247 [wandb_run.py:_config_callback():1160] config_cb None None {'gamma': 0.8407320667979981, 'learning_rate': 0.1434585628009872, 'max_depth': 7, 'min_child_weight': 8, 'n_estimators': 276, 'reg_alpha': 2.532044881817662, 'reg_lambda': 3.5843339508168413}
+2022-10-30 13:10:56,022 INFO    Thread-32 :4247 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-30 13:10:56,023 INFO    Thread-32 :4247 [wandb_init.py:init():658] updated telemetry
+2022-10-30 13:10:56,042 INFO    Thread-32 :4247 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-30 13:10:56,397 INFO    Thread-32 :4247 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-30 13:10:56,457 INFO    Thread-32 :4247 [wandb_run.py:_on_init():2004] got version response 
+2022-10-30 13:10:56,458 INFO    Thread-32 :4247 [wandb_init.py:init():728] starting run threads in backend
+2022-10-30 13:11:01,480 INFO    Thread-32 :4247 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-30 13:11:01,481 INFO    Thread-32 :4247 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-30 13:11:01,482 INFO    Thread-32 :4247 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-30 13:11:01,482 INFO    Thread-32 :4247 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-30 13:11:01,483 INFO    Thread-32 :4247 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-30 13:11:01,855 INFO    Thread-32 :4247 [wandb_run.py:_config_callback():1160] config_cb ('_wandb', 'viz', 'summary_metrics') {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'summary_metrics'}} None
+2022-10-30 13:11:17,788 INFO    Thread-32 :4247 [wandb_run.py:_config_callback():1160] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'learning_curve'}} None
+2022-10-30 13:11:18,939 INFO    Thread-32 :4247 [wandb_run.py:_config_callback():1160] config_cb ('_wandb', 'viz', 'outlier_candidates') {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'outlier_candidates'}} None
+2022-10-30 13:11:19,981 INFO    Thread-32 :4247 [wandb_run.py:_config_callback():1160] config_cb ('_wandb', 'viz', 'residuals') {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'residuals'}} None
+2022-10-30 13:11:20,209 INFO    Thread-32 :4247 [wandb_run.py:_finish():1746] finishing run dbabativa/spg/jzvq7kq9
+2022-10-30 13:11:20,210 INFO    Thread-32 :4247 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-30 13:11:20,210 INFO    Thread-32 :4247 [wandb_run.py:_restore():1932] restore
+2022-10-30 13:11:20,210 INFO    Thread-32 :4247 [wandb_run.py:_restore():1938] restore done
+2022-10-30 13:11:28,643 INFO    Thread-32 :4247 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-30 13:11:28,644 INFO    Thread-32 :4247 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-30 13:11:28,654 INFO    Thread-32 :4247 [wandb_run.py:_footer_sync_info():3333] logging synced files

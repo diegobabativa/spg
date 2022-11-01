@@ -1,0 +1,74 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.4
+    framework: xgboost
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.0
+    start_time: 1667157411.915625
+    t:
+      1:
+      - 5
+      - 6
+      - 53
+      - 55
+      2:
+      - 5
+      - 6
+      - 53
+      - 55
+      3:
+      - 2
+      - 15
+      - 23
+      - 37
+      4: 3.8.0
+      5: 0.13.4
+      8:
+      - 1
+      - 5
+    viz:
+      learning_curve:
+        historyFieldSettings:
+          key: learning_curve
+          x-axis: _step
+        id: wandb/learning_curve/v1
+      outlier_candidates:
+        historyFieldSettings:
+          key: outlier_candidates
+          x-axis: _step
+        id: wandb/outliers/v1
+      residuals:
+        historyFieldSettings:
+          key: residuals
+          x-axis: _step
+        id: wandb/residuals_plot/v1
+      summary_metrics:
+        historyFieldSettings:
+          key: summary_metrics
+          x-axis: _step
+        id: wandb/metrics/v1
+gamma:
+  desc: null
+  value: 0.4395993969779495
+learning_rate:
+  desc: null
+  value: 0.01696928449309022
+max_depth:
+  desc: null
+  value: 4
+min_child_weight:
+  desc: null
+  value: 10
+n_estimators:
+  desc: null
+  value: 172
+reg_alpha:
+  desc: null
+  value: 3.500283227652281
+reg_lambda:
+  desc: null
+  value: 1.036490292498498

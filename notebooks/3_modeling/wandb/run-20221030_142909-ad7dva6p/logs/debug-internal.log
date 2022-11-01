@@ -1,0 +1,226 @@
+2022-10-30 14:29:09,956 INFO    StreamThr :13195 [internal.py:wandb_internal():88] W&B internal server running at pid: 13195, started at: 2022-10-30 14:29:09.956000
+2022-10-30 14:29:09,959 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: status
+2022-10-30 14:29:09,962 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: status
+2022-10-30 14:29:09,985 DEBUG   SenderThread:13195 [sender.py:send():303] send: header
+2022-10-30 14:29:09,986 INFO    WriterThread:13195 [datastore.py:open_for_write():75] open: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/run-ad7dva6p.wandb
+2022-10-30 14:29:10,011 DEBUG   SenderThread:13195 [sender.py:send():303] send: run
+2022-10-30 14:29:10,375 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: check_version
+2022-10-30 14:29:10,376 INFO    SenderThread:13195 [dir_watcher.py:__init__():216] watching files in: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files
+2022-10-30 14:29:10,376 INFO    SenderThread:13195 [sender.py:_start_run_threads():928] run started: ad7dva6p with start time 1667158149.950998
+2022-10-30 14:29:10,376 DEBUG   SenderThread:13195 [sender.py:send():303] send: summary
+2022-10-30 14:29:10,377 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:10,378 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: check_version
+2022-10-30 14:29:10,455 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: run_start
+2022-10-30 14:29:10,459 DEBUG   HandlerThread:13195 [meta.py:__init__():34] meta init
+2022-10-30 14:29:10,459 DEBUG   HandlerThread:13195 [meta.py:__init__():49] meta init done
+2022-10-30 14:29:10,459 DEBUG   HandlerThread:13195 [meta.py:probe():215] probe
+2022-10-30 14:29:10,474 DEBUG   HandlerThread:13195 [meta.py:_setup_git():205] setup git
+2022-10-30 14:29:10,497 DEBUG   HandlerThread:13195 [meta.py:_setup_git():212] setup git done
+2022-10-30 14:29:10,497 DEBUG   HandlerThread:13195 [meta.py:_save_pip():53] save pip
+2022-10-30 14:29:10,498 DEBUG   HandlerThread:13195 [meta.py:_save_pip():67] save pip done
+2022-10-30 14:29:10,498 DEBUG   HandlerThread:13195 [meta.py:_save_conda():74] save conda
+2022-10-30 14:29:11,375 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/requirements.txt
+2022-10-30 14:29:11,376 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/conda-environment.yaml
+2022-10-30 14:29:11,376 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-summary.json
+2022-10-30 14:29:16,376 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/conda-environment.yaml
+2022-10-30 14:29:16,377 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/summary_metrics_0_0075e3146db55d5c8c0f.table.json
+2022-10-30 14:29:16,377 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media
+2022-10-30 14:29:16,377 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table
+2022-10-30 14:29:16,756 DEBUG   HandlerThread:13195 [meta.py:_save_conda():84] save conda done
+2022-10-30 14:29:16,756 DEBUG   HandlerThread:13195 [meta.py:probe():253] probe done
+2022-10-30 14:29:16,761 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-30 14:29:16,762 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: stop_status
+2022-10-30 14:29:16,768 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-30 14:29:16,768 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-30 14:29:16,909 DEBUG   SenderThread:13195 [sender.py:send():303] send: telemetry
+2022-10-30 14:29:16,919 DEBUG   SenderThread:13195 [sender.py:send():303] send: config
+2022-10-30 14:29:16,919 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: log_artifact
+2022-10-30 14:29:16,952 INFO    Thread-17 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/av2q1hez-media/table/summary_metrics_0_0075e3146db55d5c8c0f.table.json
+2022-10-30 14:29:17,377 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-metadata.json
+2022-10-30 14:29:17,377 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:29:18,295 INFO    Thread-19 :13195 [upload_job.py:push():101] Uploaded file /home/diego/.cache/wandb/artifacts/obj/md5/43/677f9b21146f731a08835699b1cc23
+2022-10-30 14:29:19,282 INFO    SenderThread:13195 [sender.py:send_request_log_artifact():1222] logged artifact run-ad7dva6p-summary_metrics - {'id': 'QXJ0aWZhY3Q6MjY4NTY5ODc5', 'digest': 'b9d498661cfd75f1050c5a1e915ed265', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQzNjczNjMz', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-30 14:29:19,282 DEBUG   SenderThread:13195 [sender.py:send():303] send: files
+2022-10-30 14:29:19,282 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file media/table/summary_metrics_0_0075e3146db55d5c8c0f.table.json with policy now
+2022-10-30 14:29:19,283 DEBUG   SenderThread:13195 [sender.py:send():303] send: history
+2022-10-30 14:29:19,284 DEBUG   SenderThread:13195 [sender.py:send():303] send: summary
+2022-10-30 14:29:19,284 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:19,285 DEBUG   SenderThread:13195 [sender.py:send():303] send: files
+2022-10-30 14:29:19,285 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-30 14:29:19,378 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-summary.json
+2022-10-30 14:29:19,379 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:29:19,900 INFO    Thread-21 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/3r6eowik-wandb-metadata.json
+2022-10-30 14:29:19,991 INFO    Thread-20 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/1mpcwmlx-media/table/summary_metrics_0_0075e3146db55d5c8c0f.table.json
+2022-10-30 14:29:21,379 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:29:31,912 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-30 14:29:31,912 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: stop_status
+2022-10-30 14:29:38,553 DEBUG   SenderThread:13195 [sender.py:send():303] send: stats
+2022-10-30 14:29:41,391 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/config.yaml
+2022-10-30 14:29:47,045 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-30 14:29:47,046 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: stop_status
+2022-10-30 14:29:49,778 DEBUG   SenderThread:13195 [sender.py:send():303] send: config
+2022-10-30 14:29:49,924 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-30 14:29:49,925 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: log_artifact
+2022-10-30 14:29:49,964 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-30 14:29:50,397 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/learning_curve_1_7195922292ea022243f2.table.json
+2022-10-30 14:29:50,397 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table
+2022-10-30 14:29:50,996 INFO    Thread-24 :13195 [upload_job.py:push():101] Uploaded file /home/diego/.cache/wandb/artifacts/obj/md5/85/e095d9b6525ec21c592ff4fa0d4288
+2022-10-30 14:29:51,007 INFO    Thread-22 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/1gvh6ocz-media/table/learning_curve_1_7195922292ea022243f2.table.json
+2022-10-30 14:29:51,839 INFO    SenderThread:13195 [sender.py:send_request_log_artifact():1222] logged artifact run-ad7dva6p-learning_curve - {'id': 'QXJ0aWZhY3Q6MjY4NTcwMjI5', 'digest': 'b42bb03b379dc448a74ad1c092ce0146', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQzNjczNjY3', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-30 14:29:51,839 DEBUG   SenderThread:13195 [sender.py:send():303] send: files
+2022-10-30 14:29:51,840 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file media/table/learning_curve_1_7195922292ea022243f2.table.json with policy now
+2022-10-30 14:29:51,841 DEBUG   SenderThread:13195 [sender.py:send():303] send: history
+2022-10-30 14:29:51,841 DEBUG   SenderThread:13195 [sender.py:send():303] send: summary
+2022-10-30 14:29:51,845 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:52,141 DEBUG   SenderThread:13195 [sender.py:send():303] send: config
+2022-10-30 14:29:52,319 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-30 14:29:52,319 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: log_artifact
+2022-10-30 14:29:52,362 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-30 14:29:52,398 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-summary.json
+2022-10-30 14:29:52,399 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/outlier_candidates_2_9d34c4ec5f0df5a7670d.table.json
+2022-10-30 14:29:52,399 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table
+2022-10-30 14:29:52,425 INFO    Thread-25 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/1dxhv7d7-media/table/learning_curve_1_7195922292ea022243f2.table.json
+2022-10-30 14:29:53,025 INFO    Thread-26 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/1p8ewwcw-media/table/outlier_candidates_2_9d34c4ec5f0df5a7670d.table.json
+2022-10-30 14:29:53,399 INFO    Thread-28 :13195 [upload_job.py:push():101] Uploaded file /home/diego/.cache/wandb/artifacts/obj/md5/4a/73823a944a5c1c611d1145aa94a127
+2022-10-30 14:29:53,400 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:29:54,332 INFO    SenderThread:13195 [sender.py:send_request_log_artifact():1222] logged artifact run-ad7dva6p-outlier_candidates - {'id': 'QXJ0aWZhY3Q6MjY4NTcwMjU0', 'digest': 'e89346bacab7b03fe629b1066a640339', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQzNjczNjY5', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-30 14:29:54,332 DEBUG   SenderThread:13195 [sender.py:send():303] send: files
+2022-10-30 14:29:54,333 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file media/table/outlier_candidates_2_9d34c4ec5f0df5a7670d.table.json with policy now
+2022-10-30 14:29:54,334 DEBUG   SenderThread:13195 [sender.py:send():303] send: history
+2022-10-30 14:29:54,334 DEBUG   SenderThread:13195 [sender.py:send():303] send: summary
+2022-10-30 14:29:54,340 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:54,401 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-summary.json
+2022-10-30 14:29:54,475 DEBUG   SenderThread:13195 [sender.py:send():303] send: config
+2022-10-30 14:29:54,668 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-30 14:29:54,669 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: log_artifact
+2022-10-30 14:29:54,688 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-30 14:29:54,690 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-30 14:29:54,998 INFO    Thread-29 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/22ydzv0w-media/table/outlier_candidates_2_9d34c4ec5f0df5a7670d.table.json
+2022-10-30 14:29:55,403 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:29:55,403 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_created():275] file/dir created: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/residuals_3_0faf712ab9d971d4a5a0.table.json
+2022-10-30 14:29:55,403 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table
+2022-10-30 14:29:55,695 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-30 14:29:55,844 INFO    Thread-31 :13195 [upload_job.py:push():101] Uploaded file /home/diego/.cache/wandb/artifacts/obj/md5/15/42fadcca4723fb77ecf6b0cb5756ad
+2022-10-30 14:29:55,965 INFO    Thread-32 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/1fr9n7az-media/table/residuals_3_0faf712ab9d971d4a5a0.table.json
+2022-10-30 14:29:56,800 INFO    SenderThread:13195 [sender.py:send_request_log_artifact():1222] logged artifact run-ad7dva6p-residuals - {'id': 'QXJ0aWZhY3Q6MjY4NTcwMjc3', 'digest': '53e6fdb3b3ae5d37b27ccd6c76596a3e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQzNjczNjcx', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-30 14:29:56,800 DEBUG   SenderThread:13195 [sender.py:send():303] send: files
+2022-10-30 14:29:56,801 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file media/table/residuals_3_0faf712ab9d971d4a5a0.table.json with policy now
+2022-10-30 14:29:56,802 DEBUG   SenderThread:13195 [sender.py:send():303] send: history
+2022-10-30 14:29:56,802 DEBUG   SenderThread:13195 [sender.py:send():303] send: summary
+2022-10-30 14:29:56,808 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:56,809 DEBUG   SenderThread:13195 [sender.py:send():303] send: history
+2022-10-30 14:29:56,809 DEBUG   SenderThread:13195 [sender.py:send():303] send: summary
+2022-10-30 14:29:56,810 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:56,811 DEBUG   SenderThread:13195 [sender.py:send():303] send: telemetry
+2022-10-30 14:29:56,811 DEBUG   SenderThread:13195 [sender.py:send():303] send: exit
+2022-10-30 14:29:56,811 INFO    SenderThread:13195 [sender.py:send_exit():442] handling exit code: 0
+2022-10-30 14:29:56,811 INFO    SenderThread:13195 [sender.py:send_exit():444] handling runtime: 44
+2022-10-30 14:29:56,812 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:56,812 INFO    SenderThread:13195 [sender.py:send_exit():450] send defer
+2022-10-30 14:29:56,812 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: poll_exit
+2022-10-30 14:29:56,814 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:56,814 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-30 14:29:56,820 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:56,820 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-30 14:29:56,820 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 1
+2022-10-30 14:29:56,824 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:56,824 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-30 14:29:56,912 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:56,912 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-30 14:29:56,912 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 2
+2022-10-30 14:29:56,913 DEBUG   SenderThread:13195 [sender.py:send():303] send: stats
+2022-10-30 14:29:56,914 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:56,914 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-30 14:29:56,914 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:56,914 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-30 14:29:56,914 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 3
+2022-10-30 14:29:56,915 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:56,915 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-30 14:29:56,915 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:56,915 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-30 14:29:56,915 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 4
+2022-10-30 14:29:56,916 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:56,916 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-30 14:29:56,916 DEBUG   SenderThread:13195 [sender.py:send():303] send: summary
+2022-10-30 14:29:56,918 INFO    SenderThread:13195 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-30 14:29:56,918 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:56,918 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-30 14:29:56,918 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 5
+2022-10-30 14:29:56,919 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:56,919 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-30 14:29:56,919 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:56,920 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-30 14:29:57,076 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 6
+2022-10-30 14:29:57,076 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:57,077 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-30 14:29:57,077 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:57,077 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-30 14:29:57,391 INFO    Thread-33 :13195 [upload_job.py:push():143] Uploaded file /tmp/tmplk_13b5mwandb/3lhvxxh2-media/table/residuals_3_0faf712ab9d971d4a5a0.table.json
+2022-10-30 14:29:57,405 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/config.yaml
+2022-10-30 14:29:57,406 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-summary.json
+2022-10-30 14:29:57,406 INFO    Thread-13 :13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:29:58,972 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 7
+2022-10-30 14:29:58,973 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:58,973 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-30 14:29:58,974 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:58,974 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-30 14:29:58,974 INFO    SenderThread:13195 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-30 14:29:59,408 INFO    SenderThread:13195 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:29:59,409 INFO    SenderThread:13195 [dir_watcher.py:finish():392] scan: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files
+2022-10-30 14:29:59,410 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/config.yaml config.yaml
+2022-10-30 14:29:59,410 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log output.log
+2022-10-30 14:29:59,420 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-metadata.json wandb-metadata.json
+2022-10-30 14:29:59,420 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/requirements.txt requirements.txt
+2022-10-30 14:29:59,426 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/conda-environment.yaml conda-environment.yaml
+2022-10-30 14:29:59,433 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-summary.json wandb-summary.json
+2022-10-30 14:29:59,450 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/learning_curve_1_7195922292ea022243f2.table.json media/table/learning_curve_1_7195922292ea022243f2.table.json
+2022-10-30 14:29:59,451 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/summary_metrics_0_0075e3146db55d5c8c0f.table.json media/table/summary_metrics_0_0075e3146db55d5c8c0f.table.json
+2022-10-30 14:29:59,451 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/outlier_candidates_2_9d34c4ec5f0df5a7670d.table.json media/table/outlier_candidates_2_9d34c4ec5f0df5a7670d.table.json
+2022-10-30 14:29:59,451 INFO    SenderThread:13195 [dir_watcher.py:finish():406] scan save: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/media/table/residuals_3_0faf712ab9d971d4a5a0.table.json media/table/residuals_3_0faf712ab9d971d4a5a0.table.json
+2022-10-30 14:29:59,451 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 8
+2022-10-30 14:29:59,452 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:29:59,452 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-30 14:29:59,453 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:29:59,453 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-30 14:29:59,454 INFO    SenderThread:13195 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-30 14:30:00,048 INFO    Thread-36 :13195 [upload_job.py:push():143] Uploaded file /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/requirements.txt
+2022-10-30 14:30:00,051 INFO    Thread-37 :13195 [upload_job.py:push():143] Uploaded file /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/conda-environment.yaml
+2022-10-30 14:30:00,054 INFO    Thread-34 :13195 [upload_job.py:push():143] Uploaded file /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/config.yaml
+2022-10-30 14:30:00,058 INFO    Thread-38 :13195 [upload_job.py:push():143] Uploaded file /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/wandb-summary.json
+2022-10-30 14:30:00,060 INFO    Thread-35 :13195 [upload_job.py:push():143] Uploaded file /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/files/output.log
+2022-10-30 14:30:00,263 INFO    Thread-12 :13195 [sender.py:transition_state():463] send defer: 9
+2022-10-30 14:30:00,264 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:30:00,265 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-30 14:30:00,265 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:30:00,265 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-30 14:30:00,266 INFO    SenderThread:13195 [file_pusher.py:join():173] waiting for file pusher
+2022-10-30 14:30:00,266 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 10
+2022-10-30 14:30:00,266 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:30:00,267 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-30 14:30:00,267 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:30:00,267 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-30 14:30:00,385 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 11
+2022-10-30 14:30:00,386 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:30:00,387 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-30 14:30:00,387 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:30:00,387 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-30 14:30:00,388 INFO    SenderThread:13195 [sender.py:transition_state():463] send defer: 12
+2022-10-30 14:30:00,389 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: defer
+2022-10-30 14:30:00,389 INFO    HandlerThread:13195 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-30 14:30:00,390 DEBUG   SenderThread:13195 [sender.py:send():303] send: final
+2022-10-30 14:30:00,390 DEBUG   SenderThread:13195 [sender.py:send():303] send: footer
+2022-10-30 14:30:00,390 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: defer
+2022-10-30 14:30:00,390 INFO    SenderThread:13195 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-30 14:30:00,393 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-30 14:30:00,393 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: server_info
+2022-10-30 14:30:00,394 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: poll_exit
+2022-10-30 14:30:00,395 DEBUG   SenderThread:13195 [sender.py:send_request():317] send_request: server_info
+2022-10-30 14:30:00,399 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-30 14:30:00,400 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-30 14:30:00,542 DEBUG   HandlerThread:13195 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-30 14:30:00,542 INFO    HandlerThread:13195 [handler.py:finish():814] shutting down handler
+2022-10-30 14:30:01,389 INFO    WriterThread:13195 [datastore.py:close():279] close: /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_142909-ad7dva6p/run-ad7dva6p.wandb
+2022-10-30 14:30:01,540 INFO    SenderThread:13195 [sender.py:finish():1331] shutting down sender
+2022-10-30 14:30:01,541 INFO    SenderThread:13195 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-30 14:30:01,541 INFO    SenderThread:13195 [file_pusher.py:join():173] waiting for file pusher
+2022-10-30 14:30:06,223 INFO    MainThread:13195 [internal.py:handle_exit():78] Internal process exited

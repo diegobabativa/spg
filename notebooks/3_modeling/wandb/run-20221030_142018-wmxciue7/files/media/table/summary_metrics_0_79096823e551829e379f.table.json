@@ -1,0 +1,1 @@
+{"columns": ["metric_name", "metric_value", "model_name"], "data": [["mae", 564.75, "XGBRegressor"], ["mse", 653452.86, "XGBRegressor"], ["r2_score", 0.64, "XGBRegressor"]]}

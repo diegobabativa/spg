@@ -1,0 +1,9 @@
+pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting XGBoost.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged learning curve.
+invalid value encountered in sqrt
+[34m[1mwandb[39m[22m: Logged outlier candidates.
+[34m[1mwandb[39m[22m: [33mWARNING[39m using only the first 100 datapoints to create chart residuals
+[34m[1mwandb[39m[22m: Logged residuals.

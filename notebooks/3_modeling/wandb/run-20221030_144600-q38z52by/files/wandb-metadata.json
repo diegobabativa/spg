@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-131-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-10-30T19:46:01.216509",
+    "startedAt": "2022-10-30T19:46:00.689539",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GT 740M",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "10.1.243",
+    "args": null,
+    "state": "running",
+    "program": "modeling.ipynb",
+    "git": {
+        "remote": "https://github.com/diegobabativa/spg.git",
+        "commit": "e9f08819dcecbdbcc20d1291d644e80cb69fb09c"
+    },
+    "email": "alexlord.17@gmail.com",
+    "root": "/home/diego/Documents/git/SPG",
+    "host": "diego-laptop",
+    "username": "diego",
+    "executable": "/home/diego/anaconda3/envs/spg/bin/python"
+}

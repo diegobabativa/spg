@@ -1,0 +1,16 @@
+wandb_version: 1
+
+gamma:
+  value: 0.0940004310747162
+learning_rate:
+  value: 0.05198542785583932
+max_depth:
+  value: 8
+min_child_weight:
+  value: 1
+n_estimators:
+  value: 563
+reg_alpha:
+  value: 0.9100421034612302
+reg_lambda:
+  value: 3.7049936995660966

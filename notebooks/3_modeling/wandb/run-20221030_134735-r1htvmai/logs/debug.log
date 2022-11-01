@@ -1,0 +1,30 @@
+2022-10-30 13:47:35,741 INFO    Thread-71 :4247 [wandb_setup.py:_flush():68] Configure stats pid to 4247
+2022-10-30 13:47:35,742 INFO    Thread-71 :4247 [wandb_setup.py:_flush():68] Loading settings from /home/diego/.config/wandb/settings
+2022-10-30 13:47:35,742 INFO    Thread-71 :4247 [wandb_setup.py:_flush():68] Loading settings from /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/settings
+2022-10-30 13:47:35,742 INFO    Thread-71 :4247 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'notebook_name': 'modeling.ipynb', 'entity': 'dbabativa', 'project': 'spg', 'root_dir': '/home/diego/Documents/git/SPG/notebooks/3_modeling', 'silent': 'true', 'sweep_id': 'zekfwzfs', 'run_id': 'r1htvmai', 'sweep_param_path': '/home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/sweep-zekfwzfs/config-r1htvmai.yaml'}
+2022-10-30 13:47:35,742 INFO    Thread-71 :4247 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-30 13:47:35,742 INFO    Thread-71 :4247 [wandb_init.py:_log_setup():476] Logging user logs to /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_134735-r1htvmai/logs/debug.log
+2022-10-30 13:47:35,743 INFO    Thread-71 :4247 [wandb_init.py:_log_setup():477] Logging internal logs to /home/diego/Documents/git/SPG/notebooks/3_modeling/wandb/run-20221030_134735-r1htvmai/logs/debug-internal.log
+2022-10-30 13:47:35,743 INFO    Thread-71 :4247 [wandb_init.py:init():516] calling init triggers
+2022-10-30 13:47:35,743 INFO    Thread-71 :4247 [wandb_init.py:init():519] wandb.init called with sweep_config: {'gamma': 0.4658531655142831, 'learning_rate': 0.06939567902998221, 'max_depth': 8, 'min_child_weight': 7, 'n_estimators': 502, 'reg_alpha': 0.8693604132223702, 'reg_lambda': 3.693177901621136}
+config: {}
+2022-10-30 13:47:35,744 INFO    Thread-71 :4247 [wandb_init.py:init():569] starting backend
+2022-10-30 13:47:35,744 INFO    Thread-71 :4247 [wandb_init.py:init():573] setting up manager
+2022-10-30 13:47:35,752 INFO    Thread-71 :4247 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-30 13:47:35,758 INFO    Thread-71 :4247 [wandb_init.py:init():580] backend started and connected
+2022-10-30 13:47:35,784 INFO    Thread-71 :4247 [wandb_run.py:_config_callback():1160] config_cb None None {'gamma': 0.4658531655142831, 'learning_rate': 0.06939567902998221, 'max_depth': 8, 'min_child_weight': 7, 'n_estimators': 502, 'reg_alpha': 0.8693604132223702, 'reg_lambda': 3.693177901621136}
+2022-10-30 13:47:35,788 INFO    Thread-71 :4247 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-30 13:47:35,789 INFO    Thread-71 :4247 [wandb_init.py:init():658] updated telemetry
+2022-10-30 13:47:35,811 INFO    Thread-71 :4247 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-30 13:47:36,158 INFO    Thread-71 :4247 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-30 13:47:36,302 INFO    Thread-71 :4247 [wandb_run.py:_on_init():2004] got version response 
+2022-10-30 13:47:36,303 INFO    Thread-71 :4247 [wandb_init.py:init():728] starting run threads in backend
+2022-10-30 13:47:41,314 INFO    Thread-71 :4247 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-30 13:47:41,315 INFO    Thread-71 :4247 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-30 13:47:41,315 INFO    Thread-71 :4247 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-30 13:47:41,315 INFO    Thread-71 :4247 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-30 13:47:41,316 INFO    Thread-71 :4247 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-30 13:47:41,351 INFO    Thread-71 :4247 [wandb_run.py:_finish():1746] finishing run dbabativa/spg/r1htvmai
+2022-10-30 13:47:41,351 INFO    Thread-71 :4247 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 1
+2022-10-30 13:47:41,351 INFO    Thread-71 :4247 [wandb_run.py:_restore():1932] restore
+2022-10-30 13:47:41,351 INFO    Thread-71 :4247 [wandb_run.py:_restore():1938] restore done
